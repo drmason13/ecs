@@ -23622,7 +23622,7 @@ tracing:
         A span represents an operation within a transaction, such as a request to
         another service, or a database query.'
       example: 3ff9a8981b7ccd5a
-      flat_name: span.id
+      flat_name: tracing.span.id
       ignore_above: 1024
       level: extended
       name: span.id
@@ -23636,7 +23636,7 @@ tracing:
         A trace groups multiple events like transactions that belong together. For
         example, a user request handled by multiple inter-connected services.'
       example: 4bf92f3577b34da6a3ce929d0e0e4736
-      flat_name: trace.id
+      flat_name: tracing.trace.id
       ignore_above: 1024
       level: extended
       name: trace.id
@@ -23650,7 +23650,7 @@ tracing:
         A transaction is the highest level of work measured within a service, such
         as a request to a server.'
       example: 00f067aa0ba902b7
-      flat_name: transaction.id
+      flat_name: tracing.transaction.id
       ignore_above: 1024
       level: extended
       name: transaction.id
